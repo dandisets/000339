@@ -37,9 +37,9 @@ assetsSummary:
   - ElectrodeGroup
   - ElectricalSeries
 citation: Ramachandran, Sandhya; Carnegie Mellon University; Niu, Xiaodan; Yu, Kai;
-  He, Bin (2022) Local Field Potential and MUA Recordings in the Primary Somatosensory
-  Cortex before and after Transcranial Focused Ultrasound Stimulation in Rats (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000339/draft
+  He, Bin (2022) Local Field Potential Recordings in the Primary Somatosensory Cortex
+  before and after Transcranial Focused Ultrasound Stimulation in Rats (Version draft)
+  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000339/draft
 contributor:
 - affiliation: []
   email: s.ramachandran8@gmail.com
@@ -108,8 +108,7 @@ description: In this study, we investigate how transcranial focused ultrasound (
   frequencies (10 Hz, 50 Hz, 75 Hz, 100 Hz, and 125 Hz) to induce frequency dependent
   plasticity in a manner similar to that found following tetanic electrical stimulation.
   The fundamental frequency of ultrasound used was 0.5 MHz, the pulse repetition frequency
-  (PRF)  was 3 kHz, and the total duty cycle was 36%. This dataset includes unsorted
-  MUA recordings, as well as LFP recordings.
+  (PRF)  was 3 kHz, and the total duty cycle was 36%. This dataset includes LFP recordings.
 ethicsApproval: []
 id: DANDI:000339/draft
 identifier: DANDI:000339
@@ -124,8 +123,8 @@ license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000339/versions/draft/assets/
-name: Local Field Potential and MUA Recordings in the Primary Somatosensory Cortex
-  before and after Transcranial Focused Ultrasound Stimulation in Rats
+name: Local Field Potential Recordings in the Primary Somatosensory Cortex before
+  and after Transcranial Focused Ultrasound Stimulation in Rats
 protocol: []
 relatedResource: []
 repository: https://dandiarchive.org
