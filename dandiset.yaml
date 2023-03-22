@@ -15,29 +15,29 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: signal filtering technique
-    schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 13721086720
-  numberOfFiles: 13
-  numberOfSubjects: 3
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 47457065376
+  numberOfFiles: 43
+  numberOfSubjects: 7
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
     name: Rattus norvegicus - Norway rat
     schemaKey: SpeciesType
   variableMeasured:
-  - LFP
   - ProcessingModule
-  - ElectrodeGroup
   - ElectricalSeries
+  - LFP
+  - ElectrodeGroup
 citation: Ramachandran, Sandhya; Carnegie Mellon University; Niu, Xiaodan; Yu, Kai;
-  He, Bin (2022) Local Field Potential Recordings in the Primary Somatosensory Cortex
+  He, Bin (2023) Local Field Potential Recordings in the Primary Somatosensory Cortex
   before and after Transcranial Focused Ultrasound Stimulation in Rats (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000339/draft
 contributor:
