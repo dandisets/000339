@@ -23,9 +23,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 54153783456
-  numberOfFiles: 52
-  numberOfSubjects: 16
+  numberOfBytes: 61362212512
+  numberOfFiles: 62
+  numberOfSubjects: 26
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -101,14 +101,15 @@ dateCreated: '2022-09-26T20:33:09.788694+00:00'
 description: In this study, we investigate how transcranial focused ultrasound (tFUS)
   modulates neural interaction and response to peripheral electrical limb stimulation
   through intracranial multi-electrode recordings in the rat somatosensory cortex.
-  Rats were anesthetized using isoflurane anesthesia at 2%. Recordings were taken
-  while delivering peripheral electrical stimulation once every 5 seconds to analyze
-  the neural response in the rat S1HL region, before and after ultrasound. We delivered
-  ultrasound for 5 minutes in a pulsed pattern at 5 different stimulation repetition
-  frequencies (10 Hz, 50 Hz, 75 Hz, 100 Hz, and 125 Hz) to induce frequency dependent
-  plasticity in a manner similar to that found following tetanic electrical stimulation.
-  The fundamental frequency of ultrasound used was 0.5 MHz, the pulse repetition frequency
-  (PRF)  was 3 kHz, and the total duty cycle was 36%. This dataset includes LFP recordings.
+  Recordings were taken using a 32 channel Neuronexus electrode. Rats were anesthetized
+  using isoflurane anesthesia at 2%. Recordings were taken while delivering peripheral
+  electrical stimulation once every 5 seconds to analyze the neural response in the
+  rat S1HL region, before and after ultrasound. We delivered ultrasound for 5 minutes
+  in a pulsed pattern at 5 different stimulation repetition frequencies (10 Hz, 50
+  Hz, 75 Hz, 100 Hz, and 125 Hz) to induce frequency dependent plasticity in a manner
+  similar to that found following tetanic electrical stimulation. The fundamental
+  frequency of ultrasound used was 0.5 MHz, the pulse repetition frequency (PRF)  was
+  3 kHz, and the total duty cycle was 36%. This dataset includes LFP recordings.
 ethicsApproval: []
 id: DANDI:000339/draft
 identifier: DANDI:000339
