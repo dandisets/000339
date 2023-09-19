@@ -23,9 +23,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 61362212512
-  numberOfFiles: 62
-  numberOfSubjects: 26
+  numberOfBytes: 64243853984
+  numberOfFiles: 66
+  numberOfSubjects: 30
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -107,28 +107,28 @@ description: "In this study, we investigate how transcranial focused ultrasound 
   rat S1HL region, before ultrasound for 30 minutes and then afterwards for an hour,
   in order to determine how the ultrasound therapy effects the induced waveform in
   LFP. We delivered ultrasound for 5 minutes in a pulsed pattern at 5 different stimulation
-  repetition frequencies (10 Hz, 50 Hz, 75 Hz, 100 Hz, and 125 Hz) to induce frequency
-  dependent plasticity in a manner similar to that found following tetanic electrical
-  stimulation. We hoped to investigate whether delivering tFUS that alters connectivity/correlation
-  between the targeted neurons may alter collective responses as can be analyzed through
-  induced LFP waveforms. The fundamental frequency of ultrasound used was 0.5 MHz,
-  the pulse repetition frequency (PRF)  was 3 kHz, and the total duty cycle was 36%.
-  This dataset includes LFP recordings, with 32 channels each. \n\nIn each subject,
-  recordings are provided of \"pre\" and \"post\" tFUS for two different frequencies
-  (SRF), and most contain recordings during the delivery of ultrasound and during
-  rest periods between sessions of different ultrasound parameters. For example, a
-  single subject may include \"100Hz_pre\", \"100Hz_post\", \"50Hz_pre\", \"50Hz_post\",
-  which are the pre and post tFUS recordings for the two used parameters, and then
-  \"50Hz\" and \"100Hz\", which are the recordings taken during stimulation, and \"rest1\"
-  and \"rest2\", which are the rest periods between sessions. These names are preceded
-  by a label such as \"BH280\", which is the subject label. Ultrasound is continuous
-  during the ultrasound recordings. During the \"pre\" and \"post\" recordings, electrical
-  stimulation is delivered once every 5 seconds approximately. Event trigger is not
-  included in the dataset as it was not recorded due to using a separate system to
-  stimulate. We suggest using threshold detection on a channel of LFP recordings in
-  order to approximate trigger times, as events can be recognized by the jump in voltage.
-  One could also approximate it by detecting the first event, and then add periods
-  of 5 seconds to generate the rest of the trial times. "
+  repetition frequencies (SRF) (10 Hz, 50 Hz, 75 Hz, 100 Hz, and 125 Hz) to induce
+  frequency dependent plasticity in a manner similar to that found following tetanic
+  electrical stimulation. We hoped to investigate whether delivering tFUS that alters
+  connectivity/correlation between the targeted neurons may alter collective responses
+  as can be analyzed through induced LFP waveforms. The fundamental frequency of ultrasound
+  used was 0.5 MHz, the pulse repetition frequency (PRF)  was 3 kHz, and the total
+  duty cycle was 36%. This dataset includes LFP recordings, with 32 channels each.
+  \n\nIn each subject, recordings are provided of \"pre\" and \"post\" tFUS for two
+  different frequencies (SRF), and most contain recordings during the delivery of
+  ultrasound and during rest periods between sessions of different ultrasound parameters.
+  For example, a single subject may include \"100Hz_pre\", \"100Hz_post\", \"50Hz_pre\",
+  \"50Hz_post\", which are the pre and post tFUS recordings for the two used parameters,
+  and then \"50Hz\" and \"100Hz\", which are the recordings taken during stimulation,
+  and \"rest1\" and \"rest2\", which are the rest periods between sessions. These
+  names are preceded by a label such as \"BH280\", which is the subject label. Ultrasound
+  is continuous during the ultrasound recordings. During the \"pre\" and \"post\"
+  recordings, electrical stimulation is delivered once every 5 seconds approximately.
+  Event trigger is not included in the dataset as it was not recorded due to using
+  a separate system to stimulate. We suggest using threshold detection on a channel
+  of LFP recordings in order to approximate trigger times, as events can be recognized
+  by the jump in voltage. One could also approximate it by detecting the first event,
+  and then add periods of 5 seconds to generate the rest of the trigger times."
 ethicsApproval: []
 id: DANDI:000339/draft
 identifier: DANDI:000339
