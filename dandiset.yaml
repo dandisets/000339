@@ -37,7 +37,7 @@ assetsSummary:
   - LFP
   - ElectrodeGroup
 citation: Ramachandran, Sandhya; Carnegie Mellon University; Niu, Xiaodan; Yu, Kai;
-  He, Bin (2023) Local Field Potential Recordings in the Primary Somatosensory Cortex
+  He, Bin (2024) Local Field Potential Recordings in the Primary Somatosensory Cortex
   before and after Transcranial Focused Ultrasound Stimulation in Rats (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000339/draft
 contributor:
@@ -147,7 +147,7 @@ keywords:
 - Rat
 - Somatosensory Cortex
 license:
-- spdx:CC0-1.0
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000339/versions/draft/assets/
 name: Local Field Potential Recordings in the Primary Somatosensory Cortex before
